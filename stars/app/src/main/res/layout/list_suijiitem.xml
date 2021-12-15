@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_style"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:textColor="#DCDCDC"
+            android:text="error" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#DCDCDC"/>
+
+    <ImageView
+        android:id="@+id/cardImg"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="  "/>
+
+    <TextView
+        android:id="@+id/cardContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="error"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#DCDCDC"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/w1"
+
+            />
+
+        <TextView
+            android:id="@+id/cardStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:textColor="#696969"
+            android:text="error" />
+
+        <TextView
+            android:id="@+id/cardSStar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:textColor="#696969" />
+
+        <TextView
+            android:id="@+id/cardSimg"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:textColor="#696969" />
+
+        <TextView
+            android:id="@+id/cardTime"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:textColor="#696969" />
+
+
+        <ImageView
+            android:id="@+id/cardImg1"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/s16" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
